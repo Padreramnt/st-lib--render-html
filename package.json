@@ -1,0 +1,31 @@
+{
+	"dependencies": {
+		"tslib": "^1.10.0"
+	},
+	"description": "vdom html bindings library",
+	"devDependencies": {
+		"rimraf": "^3.0.2",
+		"typescript": "^3.8.3"
+	},
+	"files": [
+		"lib"
+	],
+	"license": "MIT",
+	"main": "lib/index.js",
+	"module": "lib/index.js",
+	"name": "@st-lib/render-html",
+	"scripts": {
+		"build": "tsc -p ./tsconfig.json",
+		"prebuild": "rimraf -rf ./lib",
+		"prepublishOnly": "npm run build",
+		"prestart": "rimraf -rf ./lib",
+		"start": "tsc -p ./tsconfig.json -w",
+		"start:tsc": "tsc",
+		"test": "tsc -p ./tsconfig.json --noEmit"
+	},
+	"types": "lib/index.d.ts",
+	"version": "1.0.1",
+	"peerDependencies": {
+		"@st-lib/render": "^1.0.2"
+	}
+}
