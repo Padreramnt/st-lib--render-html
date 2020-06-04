@@ -26,6 +26,6 @@
 	"types": "lib/index.d.ts",
 	"version": "1.0.1",
 	"peerDependencies": {
-		"@st-lib/render": "^1.0.2"
+		"@st-lib/render": "^1.0.6"
 	}
 }

@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@st-lib/render@^1.0.2":
-  version "1.0.2"
-  resolved "http://localhost:4873/@st-lib%2frender/-/render-1.0.2.tgz#8cc4adb479ba4e997d6f1eb857bd1a588be6d638"
-  integrity sha512-UPhcCGfy/GIR9+FG+Wq4HmTVJFNVl4TsTgSXjFdPpI8huCMF9F7ZTSO02ybdJwtdaVgIGvomwJ5NGSNjG94dVA==
+"@st-lib/render@^1.0.6":
+  version "1.0.6"
+  resolved "http://localhost:4873/@st-lib%2frender/-/render-1.0.6.tgz#a13d3bf743d6dea7adb4f5e61f1d6124e6722445"
+  integrity sha512-Y21Kquf+f6APLddTPTvQaIItVHFkl27DJtMG0ZpoqptObM3BtTLJJgVg/E1/QNuZcX+xHbTwzTSNSt9MqNv+ag==
   dependencies:
     tslib "^1.10.0"
 
