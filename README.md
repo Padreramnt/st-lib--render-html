@@ -1,4 +1,4 @@
-# [@st-lib/render](https) HTML element shortcuts.
+# [@st-lib/render](https://www.npmjs.com/package/@st-lib/render) HTML element shortcuts.
 
 Exports all well known HTML tags.
 
